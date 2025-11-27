@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true, // 允许导入JSON文件
+    "esModuleInterop": true, // 支持默认导入风格
+    "target": "ES2018",
+    "moduleResolution": "node",
+    "module": "es2020",
+    "types": ["vite/client"],
+    "lib": ["ES5", "ES2018", "ES2017", "DOM"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

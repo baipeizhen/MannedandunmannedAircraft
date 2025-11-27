@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "区域 A" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [116.368904, 39.913423],
+            [116.387271, 39.912501],
+            [116.398258, 39.9046]
+          ]
+        ]
+      }
+    }
+  ]
+}
